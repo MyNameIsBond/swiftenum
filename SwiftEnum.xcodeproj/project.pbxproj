@@ -14,6 +14,7 @@
 		97F70272299EC567006F1B73 /* SwiftEnumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F70271299EC567006F1B73 /* SwiftEnumTests.swift */; };
 		97F7027C299EC567006F1B73 /* SwiftEnumUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F7027B299EC567006F1B73 /* SwiftEnumUITests.swift */; };
 		97F7027E299EC567006F1B73 /* SwiftEnumUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F7027D299EC567006F1B73 /* SwiftEnumUITestsLaunchTests.swift */; };
+		97F7028B299ECA51006F1B73 /* DaysOfTheWeek.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F7028A299ECA51006F1B73 /* DaysOfTheWeek.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		97F70277299EC567006F1B73 /* SwiftEnumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftEnumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		97F7027B299EC567006F1B73 /* SwiftEnumUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftEnumUITests.swift; sourceTree = "<group>"; };
 		97F7027D299EC567006F1B73 /* SwiftEnumUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftEnumUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		97F7028A299ECA51006F1B73 /* DaysOfTheWeek.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaysOfTheWeek.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				97F70263299EC567006F1B73 /* Assets.xcassets */,
 				97F70268299EC567006F1B73 /* SwiftEnum.entitlements */,
 				97F70265299EC567006F1B73 /* Preview Content */,
+				97F7028A299ECA51006F1B73 /* DaysOfTheWeek.swift */,
 			);
 			path = SwiftEnum;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				97F70262299EC566006F1B73 /* ContentView.swift in Sources */,
+				97F7028B299ECA51006F1B73 /* DaysOfTheWeek.swift in Sources */,
 				97F70260299EC566006F1B73 /* SwiftEnumApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
