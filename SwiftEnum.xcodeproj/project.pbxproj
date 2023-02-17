@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		97A88F3929A016E200A7C407 /* ShapeArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A88F3829A016E200A7C407 /* ShapeArea.swift */; };
 		97F70260299EC566006F1B73 /* SwiftEnumApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F7025F299EC566006F1B73 /* SwiftEnumApp.swift */; };
 		97F70262299EC566006F1B73 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F70261299EC566006F1B73 /* ContentView.swift */; };
 		97F70264299EC567006F1B73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97F70263299EC567006F1B73 /* Assets.xcassets */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		97A88F3829A016E200A7C407 /* ShapeArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeArea.swift; sourceTree = "<group>"; };
 		97F7025C299EC566006F1B73 /* SwiftEnum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftEnum.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		97F7025F299EC566006F1B73 /* SwiftEnumApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftEnumApp.swift; sourceTree = "<group>"; };
 		97F70261299EC566006F1B73 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				97F70268299EC567006F1B73 /* SwiftEnum.entitlements */,
 				97F70265299EC567006F1B73 /* Preview Content */,
 				97F7028A299ECA51006F1B73 /* DaysOfTheWeek.swift */,
+				97A88F3829A016E200A7C407 /* ShapeArea.swift */,
 			);
 			path = SwiftEnum;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97A88F3929A016E200A7C407 /* ShapeArea.swift in Sources */,
 				97F70262299EC566006F1B73 /* ContentView.swift in Sources */,
 				97F7028B299ECA51006F1B73 /* DaysOfTheWeek.swift in Sources */,
 				97F70260299EC566006F1B73 /* SwiftEnumApp.swift in Sources */,
