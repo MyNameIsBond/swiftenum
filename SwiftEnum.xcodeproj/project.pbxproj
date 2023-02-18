@@ -10,6 +10,7 @@
 		9745754029A129A60044CB36 /* HertzNotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9745753F29A129A60044CB36 /* HertzNotes.swift */; };
 		9745754229A130380044CB36 /* PlayingCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9745754129A130380044CB36 /* PlayingCards.swift */; };
 		9745754429A133F90044CB36 /* StatusCodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9745754329A133F90044CB36 /* StatusCodes.swift */; };
+		9745754629A174A00044CB36 /* Directions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9745754529A174A00044CB36 /* Directions.swift */; };
 		97A88F3929A016E200A7C407 /* ShapeArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A88F3829A016E200A7C407 /* ShapeArea.swift */; };
 		97A88F3B29A0205A00A7C407 /* Temperature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A88F3A29A0205A00A7C407 /* Temperature.swift */; };
 		97A88F3D29A027A200A7C407 /* PlanetFromSun.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A88F3C29A027A200A7C407 /* PlanetFromSun.swift */; };
@@ -44,6 +45,7 @@
 		9745753F29A129A60044CB36 /* HertzNotes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HertzNotes.swift; sourceTree = "<group>"; };
 		9745754129A130380044CB36 /* PlayingCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingCards.swift; sourceTree = "<group>"; };
 		9745754329A133F90044CB36 /* StatusCodes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusCodes.swift; sourceTree = "<group>"; };
+		9745754529A174A00044CB36 /* Directions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Directions.swift; sourceTree = "<group>"; };
 		97A88F3829A016E200A7C407 /* ShapeArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeArea.swift; sourceTree = "<group>"; };
 		97A88F3A29A0205A00A7C407 /* Temperature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Temperature.swift; sourceTree = "<group>"; };
 		97A88F3C29A027A200A7C407 /* PlanetFromSun.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetFromSun.swift; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 				9745753F29A129A60044CB36 /* HertzNotes.swift */,
 				9745754129A130380044CB36 /* PlayingCards.swift */,
 				9745754329A133F90044CB36 /* StatusCodes.swift */,
+				9745754529A174A00044CB36 /* Directions.swift */,
 			);
 			path = SwiftEnum;
 			sourceTree = "<group>";
@@ -289,6 +292,7 @@
 				97A88F3B29A0205A00A7C407 /* Temperature.swift in Sources */,
 				9745754229A130380044CB36 /* PlayingCards.swift in Sources */,
 				97F70260299EC566006F1B73 /* SwiftEnumApp.swift in Sources */,
+				9745754629A174A00044CB36 /* Directions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

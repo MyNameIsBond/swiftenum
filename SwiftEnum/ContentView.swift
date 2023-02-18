@@ -7,7 +7,9 @@ struct ContentView: View {
 //      ShapeArea()
 //      Temperature()
 //      PlanetFromSun()
-      HertzNotes()
+//      HertzNotes()
+//      StatusCodes()
+       Directions()
     }
 }
 
