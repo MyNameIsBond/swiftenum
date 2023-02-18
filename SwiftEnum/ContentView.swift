@@ -1,7 +1,3 @@
-//
-//  ContentView.swift
-//  SwiftEnum
-//
 
 import SwiftUI
 
@@ -10,7 +6,8 @@ struct ContentView: View {
 //        DaysOfTheWeek()
 //      ShapeArea()
 //      Temperature()
-      PlanetFromSun()
+//      PlanetFromSun()
+      HertzNotes()
     }
 }
 

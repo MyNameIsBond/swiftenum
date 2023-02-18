@@ -1,7 +1,3 @@
-//
-//  DaysOfTheWeek.swift
-//  SwiftEnum
-//
 
 import SwiftUI
 

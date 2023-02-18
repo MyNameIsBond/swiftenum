@@ -1,7 +1,3 @@
-//
-//  ShapeArea.swift
-//  SwiftEnum
-//
 
 import SwiftUI
 
