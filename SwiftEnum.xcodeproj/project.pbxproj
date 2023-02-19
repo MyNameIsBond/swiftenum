@@ -12,6 +12,7 @@
 		9745754429A133F90044CB36 /* StatusCodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9745754329A133F90044CB36 /* StatusCodes.swift */; };
 		9745754629A174A00044CB36 /* Directions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9745754529A174A00044CB36 /* Directions.swift */; };
 		9799A45029A2434600F05281 /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9799A44F29A2434600F05281 /* Deck.swift */; };
+		9799A45229A24C8A00F05281 /* TicTacToe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9799A45129A24C8A00F05281 /* TicTacToe.swift */; };
 		97A88F3929A016E200A7C407 /* ShapeArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A88F3829A016E200A7C407 /* ShapeArea.swift */; };
 		97A88F3B29A0205A00A7C407 /* Temperature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A88F3A29A0205A00A7C407 /* Temperature.swift */; };
 		97A88F3D29A027A200A7C407 /* PlanetFromSun.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A88F3C29A027A200A7C407 /* PlanetFromSun.swift */; };
@@ -48,6 +49,7 @@
 		9745754329A133F90044CB36 /* StatusCodes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusCodes.swift; sourceTree = "<group>"; };
 		9745754529A174A00044CB36 /* Directions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Directions.swift; sourceTree = "<group>"; };
 		9799A44F29A2434600F05281 /* Deck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
+		9799A45129A24C8A00F05281 /* TicTacToe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToe.swift; sourceTree = "<group>"; };
 		97A88F3829A016E200A7C407 /* ShapeArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeArea.swift; sourceTree = "<group>"; };
 		97A88F3A29A0205A00A7C407 /* Temperature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Temperature.swift; sourceTree = "<group>"; };
 		97A88F3C29A027A200A7C407 /* PlanetFromSun.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetFromSun.swift; sourceTree = "<group>"; };
@@ -127,6 +129,7 @@
 				9745754329A133F90044CB36 /* StatusCodes.swift */,
 				9745754529A174A00044CB36 /* Directions.swift */,
 				9799A44F29A2434600F05281 /* Deck.swift */,
+				9799A45129A24C8A00F05281 /* TicTacToe.swift */,
 			);
 			path = SwiftEnum;
 			sourceTree = "<group>";
@@ -296,6 +299,7 @@
 				97A88F3B29A0205A00A7C407 /* Temperature.swift in Sources */,
 				9745754229A130380044CB36 /* PlayingCards.swift in Sources */,
 				97F70260299EC566006F1B73 /* SwiftEnumApp.swift in Sources */,
+				9799A45229A24C8A00F05281 /* TicTacToe.swift in Sources */,
 				9745754629A174A00044CB36 /* Directions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
