@@ -3,13 +3,14 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-//        DaysOfTheWeek()
+//      DaysOfTheWeek()
 //      ShapeArea()
 //      Temperature()
 //      PlanetFromSun()
 //      HertzNotes()
 //      StatusCodes()
-       Directions()
+//        Directions()
+      Deck()
     }
 }
 
