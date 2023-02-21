@@ -48,7 +48,6 @@ func setUpBoard() -> [[PieceOnTheBoard]] {
     myBoard.append(myRow)
     myRow.removeAll()
   }
-  print(myBoard)
   return myBoard
 }
 
@@ -61,11 +60,11 @@ struct ChessBoard: View {
           ForEach(r, id: \.self) { c in
             ZStack {
               Rectangle()
-//                .fill(((r+c)%2 == 0) ? .brown : .black)
+//                .fill(((r.id + )%2 == 0) ? .brown : .black)
                 .frame(width: 80, height: 80)
-              Text(c.Piece).foregroundColor(.white).font(.system(size: 50))
+              Text(c.Piece.rawValue).foregroundColor(.white).font(.system(size: 50))
             }.onTapGesture {
-              print(r,$0)
+              print(r, $0)
             }
           }
           
