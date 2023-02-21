@@ -14,16 +14,12 @@ enum Pieces: String {
   case blackKnight = "♞"
   case blackRook = "♜"
   case blackPawn = "♟"
+  case empty = ""
 }
 
 enum Squares: CaseIterable, Identifiable {
   case a,b,c,d,e,f,g,h
   var id: Squares { self }
-}
-
-enum Sqaure {
-  case Pieces
-  case empty
 }
 
 enum Selected {
@@ -38,7 +34,7 @@ enum PlauersTurn {
 struct PieceOnTheBoard {
   let Row: Squares
   let Column: Int
-  let Piece: Sqaure
+  let Piece: Pieces
 }
 
 func setUpBoard() -> [PieceOnTheBoard] {
@@ -46,11 +42,35 @@ func setUpBoard() -> [PieceOnTheBoard] {
   
   for square in Squares.allCases {
     for inSqaure in 1...8 {
+      setUpPiecesOnNewGame(row: square, column: inSqaure)
       myBoard.append(.init(Row: square, Column: inSqaure, Piece: .empty))
     }
   }
-  print(myBoard)
+//  print(myBoard)
   return myBoard
+}
+
+func setUpPiecesOnNewGame(row: Squares, column: Int) -> Pieces {
+  switch (row, column) {
+  case (.a, 2):
+    return .pawn
+  case (.b, 2):
+    return .pawn
+  case (.c, 2):
+    return .pawn
+  case (.d, 2):
+    return .pawn
+  case (.e, 2):
+    return .pawn
+  case (.f, 2):
+    return .pawn
+  case (.g, 2):
+    return .pawn
+  case (.h, 2):
+    return .pawn
+  default:
+    return .empty
+  }
 }
 
 struct ChessBoard: View {
