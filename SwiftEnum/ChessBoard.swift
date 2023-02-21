@@ -55,16 +55,16 @@ struct ChessBoard: View {
   @State var board = setUpBoard()
   var body: some View {
     HStack(spacing: 1) {
-      ForEach(board, id: \.self) { r in
+      ForEach(0..<board.count) { r in
         VStack(spacing: 1) {
-          ForEach(r, id: \.self) { c in
+          ForEach(board[r], id: \.self) { c in
             ZStack {
               Rectangle()
-//                .fill(((r.id + )%2 == 0) ? .brown : .black)
+                .fill(((r + c.Column)%2 == 0) ? .brown : .black)
                 .frame(width: 80, height: 80)
               Text(c.Piece.rawValue).foregroundColor(.white).font(.system(size: 50))
             }.onTapGesture {
-              print(r, $0)
+              print("TODO!!")
             }
           }
           
