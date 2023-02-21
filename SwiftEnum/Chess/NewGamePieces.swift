@@ -15,9 +15,9 @@ func setUpPiecesOnNewGame(row: Squares, column: Int) -> Pieces {
     return .knight
     
   case (.c, 2):
-    return .bishop
-  case (.c, 1):
     return .pawn
+  case (.c, 1):
+    return .bishop
     
   case (.d, 2):
     return .pawn
