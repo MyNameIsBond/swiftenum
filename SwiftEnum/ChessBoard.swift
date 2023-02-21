@@ -42,35 +42,12 @@ func setUpBoard() -> [PieceOnTheBoard] {
   
   for square in Squares.allCases {
     for inSqaure in 1...8 {
-      setUpPiecesOnNewGame(row: square, column: inSqaure)
-      myBoard.append(.init(Row: square, Column: inSqaure, Piece: .empty))
+      
+      myBoard.append(.init(Row: square, Column: inSqaure, Piece: setUpPiecesOnNewGame(row: square, column: inSqaure)))
     }
   }
-//  print(myBoard)
+  print(myBoard)
   return myBoard
-}
-
-func setUpPiecesOnNewGame(row: Squares, column: Int) -> Pieces {
-  switch (row, column) {
-  case (.a, 2):
-    return .pawn
-  case (.b, 2):
-    return .pawn
-  case (.c, 2):
-    return .pawn
-  case (.d, 2):
-    return .pawn
-  case (.e, 2):
-    return .pawn
-  case (.f, 2):
-    return .pawn
-  case (.g, 2):
-    return .pawn
-  case (.h, 2):
-    return .pawn
-  default:
-    return .empty
-  }
 }
 
 struct ChessBoard: View {

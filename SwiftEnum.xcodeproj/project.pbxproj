@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		970E360729A5681D00389F29 /* NewGamePieces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970E360629A5681D00389F29 /* NewGamePieces.swift */; };
 		9745754029A129A60044CB36 /* HertzNotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9745753F29A129A60044CB36 /* HertzNotes.swift */; };
 		9745754229A130380044CB36 /* PlayingCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9745754129A130380044CB36 /* PlayingCards.swift */; };
 		9745754429A133F90044CB36 /* StatusCodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9745754329A133F90044CB36 /* StatusCodes.swift */; };
@@ -44,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		970E360629A5681D00389F29 /* NewGamePieces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewGamePieces.swift; sourceTree = "<group>"; };
 		9745753F29A129A60044CB36 /* HertzNotes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HertzNotes.swift; sourceTree = "<group>"; };
 		9745754129A130380044CB36 /* PlayingCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingCards.swift; sourceTree = "<group>"; };
 		9745754329A133F90044CB36 /* StatusCodes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusCodes.swift; sourceTree = "<group>"; };
@@ -92,6 +94,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		970E360529A5680500389F29 /* Chess */ = {
+			isa = PBXGroup;
+			children = (
+				970E360629A5681D00389F29 /* NewGamePieces.swift */,
+			);
+			path = Chess;
+			sourceTree = "<group>";
+		};
 		97F70253299EC566006F1B73 = {
 			isa = PBXGroup;
 			children = (
@@ -115,6 +125,7 @@
 		97F7025E299EC566006F1B73 /* SwiftEnum */ = {
 			isa = PBXGroup;
 			children = (
+				970E360529A5680500389F29 /* Chess */,
 				97F7025F299EC566006F1B73 /* SwiftEnumApp.swift */,
 				97F70261299EC566006F1B73 /* ContentView.swift */,
 				97F70263299EC567006F1B73 /* Assets.xcassets */,
@@ -300,6 +311,7 @@
 				9745754229A130380044CB36 /* PlayingCards.swift in Sources */,
 				97F70260299EC566006F1B73 /* SwiftEnumApp.swift in Sources */,
 				9799A45229A24C8A00F05281 /* ChessBoard.swift in Sources */,
+				970E360729A5681D00389F29 /* NewGamePieces.swift in Sources */,
 				9745754629A174A00044CB36 /* Directions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
