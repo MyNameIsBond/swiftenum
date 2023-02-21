@@ -1,27 +1,29 @@
 
 import SwiftUI
 
-enum WhitePieces: String {
+enum Pieces: String {
   case king = "♔"
   case queen = "♕"
   case bishop = "♗"
   case knight = "♘"
   case rook = "♖"
   case pawn = "♙"
-}
-
-enum BlackPieces: String {
-  case king = "♚"
-  case queen = "♛"
-  case bishop = "♝"
-  case knight = "♞"
-  case rook = "♜"
-  case pawn = "♟"
+  case blackKing = "♚"
+  case blackQueen = "♛"
+  case blackBishop = "♝"
+  case blackKnight = "♞"
+  case blackRook = "♜"
+  case blackPawn = "♟"
 }
 
 enum Squares: CaseIterable, Identifiable {
   case a,b,c,d,e,f,g,h
   var id: Squares { self }
+}
+
+enum Sqaure {
+  case Pieces
+  case empty
 }
 
 enum Selected {
@@ -33,14 +35,26 @@ enum PlauersTurn {
   case white, black
 }
 
-enum Sqaure {
-  case Pieces
-  case empty
+struct PieceOnTheBoard {
+  let Row: Squares
+  let Column: Int
+  let Piece: Sqaure
 }
 
+func setUpBoard() -> [PieceOnTheBoard] {
+  var myBoard:[PieceOnTheBoard] = []
+  
+  for square in Squares.allCases {
+    for inSqaure in 1...8 {
+      myBoard.append(.init(Row: square, Column: inSqaure, Piece: .empty))
+    }
+  }
+  print(myBoard)
+  return myBoard
+}
 
 struct ChessBoard: View {
-  
+  @State var board = setUpBoard()
   var body: some View {
     HStack(spacing: 1) {
       ForEach(1..<9) { r in
@@ -50,7 +64,7 @@ struct ChessBoard: View {
               Rectangle()
                 .fill(((r+c)%2 == 0) ? .brown : .black)
                 .frame(width: 80, height: 80)
-              Text(WhitePieces.queen.rawValue).foregroundColor(.white).font(.system(size: 50))
+              Text(Pieces.queen.rawValue).foregroundColor(.white).font(.system(size: 50))
             }.onTapGesture {
               print(r,$0)
             }
