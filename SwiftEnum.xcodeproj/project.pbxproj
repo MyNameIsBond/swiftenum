@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		970E360729A5681D00389F29 /* NewGamePieces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970E360629A5681D00389F29 /* NewGamePieces.swift */; };
+		972FD84E29A6323A00E2C517 /* SortingAlgs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972FD84D29A6323A00E2C517 /* SortingAlgs.swift */; };
+		972FD85129A63A7C00E2C517 /* Algorithms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972FD85029A63A7C00E2C517 /* Algorithms.swift */; };
 		9745754029A129A60044CB36 /* HertzNotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9745753F29A129A60044CB36 /* HertzNotes.swift */; };
 		9745754229A130380044CB36 /* PlayingCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9745754129A130380044CB36 /* PlayingCards.swift */; };
 		9745754429A133F90044CB36 /* StatusCodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9745754329A133F90044CB36 /* StatusCodes.swift */; };
@@ -46,6 +48,8 @@
 
 /* Begin PBXFileReference section */
 		970E360629A5681D00389F29 /* NewGamePieces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewGamePieces.swift; sourceTree = "<group>"; };
+		972FD84D29A6323A00E2C517 /* SortingAlgs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortingAlgs.swift; sourceTree = "<group>"; };
+		972FD85029A63A7C00E2C517 /* Algorithms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Algorithms.swift; sourceTree = "<group>"; };
 		9745753F29A129A60044CB36 /* HertzNotes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HertzNotes.swift; sourceTree = "<group>"; };
 		9745754129A130380044CB36 /* PlayingCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingCards.swift; sourceTree = "<group>"; };
 		9745754329A133F90044CB36 /* StatusCodes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusCodes.swift; sourceTree = "<group>"; };
@@ -141,6 +145,8 @@
 				9745754529A174A00044CB36 /* Directions.swift */,
 				9799A44F29A2434600F05281 /* Deck.swift */,
 				9799A45129A24C8A00F05281 /* ChessBoard.swift */,
+				972FD84D29A6323A00E2C517 /* SortingAlgs.swift */,
+				972FD85029A63A7C00E2C517 /* Algorithms.swift */,
 			);
 			path = SwiftEnum;
 			sourceTree = "<group>";
@@ -307,6 +313,8 @@
 				97A88F3D29A027A200A7C407 /* PlanetFromSun.swift in Sources */,
 				9799A45029A2434600F05281 /* Deck.swift in Sources */,
 				97F7028B299ECA51006F1B73 /* DaysOfTheWeek.swift in Sources */,
+				972FD84E29A6323A00E2C517 /* SortingAlgs.swift in Sources */,
+				972FD85129A63A7C00E2C517 /* Algorithms.swift in Sources */,
 				97A88F3B29A0205A00A7C407 /* Temperature.swift in Sources */,
 				9745754229A130380044CB36 /* PlayingCards.swift in Sources */,
 				97F70260299EC566006F1B73 /* SwiftEnumApp.swift in Sources */,
