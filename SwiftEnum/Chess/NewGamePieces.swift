@@ -1,7 +1,6 @@
 
 import SwiftUI
 
-
 func setUpPiecesOnNewGame(row: Squares, column: Int) -> Pieces {
   switch (row, column) {
   case (.a, 2):
