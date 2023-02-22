@@ -16,6 +16,7 @@ func bubbleSortAlg<T: Comparable>(_ array: inout [T]) {
     }
 }
 
+
 func insertionSortAlg<T: Comparable>(_ array: inout [T]) {
     guard array.count > 1 else {
         return
