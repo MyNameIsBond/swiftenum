@@ -59,7 +59,7 @@ struct Deck: View {
   @State var myDeck: [Card] = deck()
   
     var body: some View {
-        Text("Tic Tac Toe game")
+        Text("Playing Cards")
       Button("See my Deck") {
         print(myDeck)
         myDeck.removeAll()

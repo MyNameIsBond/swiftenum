@@ -14,6 +14,7 @@
 		9745754229A130380044CB36 /* PlayingCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9745754129A130380044CB36 /* PlayingCards.swift */; };
 		9745754429A133F90044CB36 /* StatusCodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9745754329A133F90044CB36 /* StatusCodes.swift */; };
 		9745754629A174A00044CB36 /* Directions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9745754529A174A00044CB36 /* Directions.swift */; };
+		9784891629A6C915000E8C19 /* Currencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9784891529A6C914000E8C19 /* Currencies.swift */; };
 		9799A45029A2434600F05281 /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9799A44F29A2434600F05281 /* Deck.swift */; };
 		9799A45229A24C8A00F05281 /* ChessBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9799A45129A24C8A00F05281 /* ChessBoard.swift */; };
 		97A88F3929A016E200A7C407 /* ShapeArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A88F3829A016E200A7C407 /* ShapeArea.swift */; };
@@ -54,6 +55,7 @@
 		9745754129A130380044CB36 /* PlayingCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingCards.swift; sourceTree = "<group>"; };
 		9745754329A133F90044CB36 /* StatusCodes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusCodes.swift; sourceTree = "<group>"; };
 		9745754529A174A00044CB36 /* Directions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Directions.swift; sourceTree = "<group>"; };
+		9784891529A6C914000E8C19 /* Currencies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currencies.swift; sourceTree = "<group>"; };
 		9799A44F29A2434600F05281 /* Deck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
 		9799A45129A24C8A00F05281 /* ChessBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChessBoard.swift; sourceTree = "<group>"; };
 		97A88F3829A016E200A7C407 /* ShapeArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeArea.swift; sourceTree = "<group>"; };
@@ -147,6 +149,7 @@
 				9799A45129A24C8A00F05281 /* ChessBoard.swift */,
 				972FD84D29A6323A00E2C517 /* SortingAlgs.swift */,
 				972FD85029A63A7C00E2C517 /* Algorithms.swift */,
+				9784891529A6C914000E8C19 /* Currencies.swift */,
 			);
 			path = SwiftEnum;
 			sourceTree = "<group>";
@@ -320,6 +323,7 @@
 				97F70260299EC566006F1B73 /* SwiftEnumApp.swift in Sources */,
 				9799A45229A24C8A00F05281 /* ChessBoard.swift in Sources */,
 				970E360729A5681D00389F29 /* NewGamePieces.swift in Sources */,
+				9784891629A6C915000E8C19 /* Currencies.swift in Sources */,
 				9745754629A174A00044CB36 /* Directions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
