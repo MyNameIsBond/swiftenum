@@ -6,9 +6,7 @@ func bubbleSortAlg<T: Comparable>(_ array: inout [T]) {
         return
     }
     for i in 0..<array.count {
-        // After each iteration of the outer loop, the largest element will be at the end of the array
         for j in 1..<array.count - i {
-            // If the element at position j-1 is greater than the element at position j, swap them
             if array[j-1] > array[j] {
                 array.swapAt(j-1, j)
             }
