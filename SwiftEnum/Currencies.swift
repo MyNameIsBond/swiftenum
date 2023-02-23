@@ -16,13 +16,13 @@ enum Currency {
 }
 
 struct Currencies: View {
-    var body: some View {
-        Text("Currencies")
-    }
+  var body: some View {
+    Text("Currencies")
+  }
 }
 
 struct Currencies_Previews: PreviewProvider {
-    static var previews: some View {
-        Currencies()
-    }
+  static var previews: some View {
+    Currencies()
+  }
 }

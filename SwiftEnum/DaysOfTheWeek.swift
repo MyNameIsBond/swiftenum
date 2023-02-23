@@ -31,25 +31,25 @@ func weekdayMessage(day: Days) -> String {
 }
 
 struct DaysOfTheWeek: View {
-    @State private var selectedFlavor: Days = .monday
-    var body: some View {
-      Text(weekdayMessage(day: selectedFlavor))
-      List {
-          Picker("Flavor", selection: $selectedFlavor) {
-            Text("monday").tag(Days.monday)
-            Text("tuesday").tag(Days.tuesday)
-            Text("wednesday").tag(Days.wednesday)
-            Text("thursday").tag(Days.thursday)
-            Text("friday").tag(Days.friday)
-            Text("saturday").tag(Days.saturday)
-            Text("sunday").tag(Days.sunday)
-          }
+  @State private var selectedFlavor: Days = .monday
+  var body: some View {
+    Text(weekdayMessage(day: selectedFlavor))
+    List {
+      Picker("Flavor", selection: $selectedFlavor) {
+        Text("monday").tag(Days.monday)
+        Text("tuesday").tag(Days.tuesday)
+        Text("wednesday").tag(Days.wednesday)
+        Text("thursday").tag(Days.thursday)
+        Text("friday").tag(Days.friday)
+        Text("saturday").tag(Days.saturday)
+        Text("sunday").tag(Days.sunday)
       }
     }
+  }
 }
 
 struct DaysOfTheWeek_Previews: PreviewProvider {
-    static var previews: some View {
-        DaysOfTheWeek()
-    }
+  static var previews: some View {
+    DaysOfTheWeek()
+  }
 }

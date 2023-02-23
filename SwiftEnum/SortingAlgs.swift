@@ -26,13 +26,13 @@ enum Algs{
 
 
 struct SortingAlgs: View {
-    var body: some View {
-        Text("Sorting Algorithms")
-    }
+  var body: some View {
+    Text("Sorting Algorithms")
+  }
 }
 
 struct SortingAlgs_Previews: PreviewProvider {
-    static var previews: some View {
-        SortingAlgs()
-    }
+  static var previews: some View {
+    SortingAlgs()
+  }
 }

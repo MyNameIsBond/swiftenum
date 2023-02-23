@@ -31,18 +31,18 @@ func tempCalc(temp: Int) -> Temperatures {
 struct Temperature: View {
   @State var text = String()
   @State var anotherText: Temperatures = .cold
-    var body: some View {
-      Text("Give me a temperature")
-      TextField("Give me an Int", text: $text)
-      Button("Submit") {
-        anotherText = tempCalc(temp: Int(text)!)
-        print(anotherText)
-      }
+  var body: some View {
+    Text("Give me a temperature")
+    TextField("Give me an Int", text: $text)
+    Button("Submit") {
+      anotherText = tempCalc(temp: Int(text)!)
+      print(anotherText)
     }
+  }
 }
 
 struct Temperature_Previews: PreviewProvider {
-    static var previews: some View {
-        Temperature()
-    }
+  static var previews: some View {
+    Temperature()
+  }
 }

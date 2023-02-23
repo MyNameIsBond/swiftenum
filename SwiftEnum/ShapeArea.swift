@@ -20,18 +20,18 @@ func findArea(shape: Shapes) -> Double {
 
 struct ShapeArea: View {
   @State var selectedShape: Shapes = .rectangle(length: 15, width: 15)
-    var body: some View {
-      Text(String(findArea(shape: selectedShape)))
-      Picker("Shape", selection: $selectedShape) {
-        Text("Triangle").tag(Shapes.triangle(base: 12.0, height: 12.0))
-        Text("circle").tag(Shapes.circle(radius: 12.0))
-        Text("rectangle").tag(Shapes.rectangle(length: 15, width: 15))
-      }
+  var body: some View {
+    Text(String(findArea(shape: selectedShape)))
+    Picker("Shape", selection: $selectedShape) {
+      Text("Triangle").tag(Shapes.triangle(base: 12.0, height: 12.0))
+      Text("circle").tag(Shapes.circle(radius: 12.0))
+      Text("rectangle").tag(Shapes.rectangle(length: 15, width: 15))
     }
+  }
 }
 
 struct ShapeArea_Previews: PreviewProvider {
-    static var previews: some View {
-        ShapeArea()
-    }
+  static var previews: some View {
+    ShapeArea()
+  }
 }

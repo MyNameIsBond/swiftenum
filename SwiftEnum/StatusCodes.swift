@@ -29,30 +29,30 @@ func network(status: Int) -> String {
     return HttpStatusCodes.internalServerError.rawValue
   default:
     return HttpStatusCodes.unauthorized.rawValue
-      
-
+    
+    
   }
 }
 
 struct StatusCodes: View {
   @State private var status: Int = 200
-    var body: some View {
-        Text("HTTP Status Codes")
-      Text(network(status:status))
-      Picker("HTTP Status", selection: $status) {
-        Text("200").tag(200)
-        Text("201").tag(201)
-        Text("204").tag(204)
-        Text("400").tag(400)
-        Text("401").tag(401)
-        Text("404").tag(404)
-        Text("500").tag(500)
-      }
+  var body: some View {
+    Text("HTTP Status Codes")
+    Text(network(status:status))
+    Picker("HTTP Status", selection: $status) {
+      Text("200").tag(200)
+      Text("201").tag(201)
+      Text("204").tag(204)
+      Text("400").tag(400)
+      Text("401").tag(401)
+      Text("404").tag(404)
+      Text("500").tag(500)
     }
+  }
 }
 
 struct StatusCodes_Previews: PreviewProvider {
-    static var previews: some View {
-        StatusCodes()
-    }
+  static var previews: some View {
+    StatusCodes()
+  }
 }
